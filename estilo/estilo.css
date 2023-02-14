@@ -1,0 +1,72 @@
+body{
+    background-color:cadetblue;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: beige;
+    padding: 10px;
+    border: 3px solid grey;
+    border-radius: 45px;
+    margin: 10px 100px 20px 100px;
+    font-family: Cambria;
+    font-size: 20px;
+}
+
+h1{
+    color: beige;
+    text-align: center;
+    font-family: Cambria;
+    font-size: 50px;
+    padding: 10px;
+}
+h2{
+    color: beige;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 20px;
+}
+
+#paragrafo{
+    color: antiquewhite;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    margin-left: 30px;
+    width: 1000px;
+}
+
+#links{
+   background-color: beige;
+   width: 300px;
+   text-align: left;
+   padding: 10px;
+   border: 3px solid grey;
+   margin: auto;
+   border-radius: 45px;
+   color: black;
+   font-size: 20PX;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.imagens {
+    text-align: center;
+}
+
+img{
+    border: 3px solid white;
+    border-radius: 45px;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: beige;
+    border: 3px solid grey;
+    margin-top: 330px;
+    align-items: flex-end;
+}
+.rodape{
+    font-size: 20px;
+    font-family: Cambria;
+}
